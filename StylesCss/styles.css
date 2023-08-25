@@ -1,0 +1,24 @@
+
+
+.main-header{
+    color: rgb(180, 167, 157);
+    background-image: url("../Img/depositphotos_635479520-stock-photo-background-texture-old-brick-wall.jpg");
+    background-color: #00000098;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    padding: 1%;
+    font-size: 5em;
+}
+
+body{
+    margin: 0;
+}
+
+.form-action{
+    background-color: rgb(114, 109, 108);
+    -webkit-text-fill-color:rgb(180, 167, 157, 0.9);
+    background-image: url("../Img/AdobeStock_263918963.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}

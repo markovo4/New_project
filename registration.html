@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="StylesCss/styles-registration.css">
 </head>
+
 <body>
-    <form action="https://fom.in.ua/echo" method="GET">
+    <header class="reg-header">
+        <p><b>Please Register Here</b></p>
+    </header>
 
-    <p><b>Please Register Here</b></p>
-    <label for="email" >E-mail:</label>
-    <input type="email" name="email" id="email" required>
+    <form action="https://fom.in.ua/echo" class="form-action2" method="GET" >
 
-    <br>
-    <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
 
-    <label for="password">Password:</label>
-    <input type="password" name="password" id="password" required>
+        <br>
+        <br>
 
-    <br>
-    <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
 
-    <label for="conPassword">Confirm Password:</label>
-    <input type="password" name="conPassword" id="conPassword" required>
+        <br>
+        <br>
 
-    <br>
-    <br>
+        <label for="conPassword">Confirm Password:</label>
+        <input type="password" name="conPassword" id="conPassword" required>
 
-    <Button type="submit">
-        Submit
-    </Button>
+        <br>
+        <br>
 
+        <Button type="submit">
+            Submit
+        </Button>
+        <a href="authorization.html">Already have an Account?</a>
     </form>
 
     <br>
     <br>
 
-    <a href="authorization.html">Already have an Account?</a>
+
 
 </body>
+
 </html>

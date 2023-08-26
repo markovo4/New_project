@@ -1,8 +1,7 @@
 
-
-.main-header{
+.reg-header{
     color: rgb(180, 167, 157);
-    background-image: url("../Img-search/depositphotos_635479520-stock-photo-background-texture-old-brick-wall.jpg");
+    background-image: url("../Img-registration/depositphotos_166272284-stock-photo-dark-wooden-planks.jpg");
     background-color: #00000098;
     background-blend-mode: multiply;
     background-size: cover;
@@ -15,10 +14,10 @@ body{
     margin: 0;
 }
 
-.form-action{
+.form-action2{
     background-color: rgb(114, 109, 108);
     -webkit-text-fill-color:rgb(180, 167, 157, 0.9);
-    background-image: url("../Img-search/AdobeStock_263918963.jpeg");
+    background-image: url("../Img-registration/depositphotos_8214705-stock-photo-grunge-industrial-background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
 }
